@@ -4,6 +4,7 @@ import CitySearch from './CitySearch';
 import AirQualityCard from './AirQualityCard'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
 function App() {
 const [airQualityData, setAirQualityData] = useState (null)
 const [error, setError] = useState(null)
